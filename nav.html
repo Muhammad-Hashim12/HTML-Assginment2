@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web design</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing:border box
+        }
+        #nav{
+            display: flex;
+            place-content: space-between;
+            background-color: rgb(2, 167, 2);
+            height: 40px;
+        }
+        .heading{
+            list-style-type:none;
+            display: flex;
+        }
+        .end_nav{
+            list-style-type:none;
+            display: flex;  
+            padding-top: 10px;
+        }
+        li{
+           padding-left: 10px; 
+        }
+        .main {
+            margin: auto;
+            width: 75%;
+            
+            /*border: 2px solid green;*/
+            padding: 10px;
+         
+        }
+        .sub{
+            display: flex; 
+            /*border:2px solid black;*/
+            
+            
+
+        }
+        .sub1{
+            /*border: 2px solid black;*/
+            width:30%;
+            margin-left:10px;
+            background-color: rgb(241, 238, 238);
+        }
+        h3{
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        .subp{
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav" >
+        <ul id="heading">
+            <li > <h3>Brussels sprouts 4Eva</h3></li> 
+        </ul>
+        <ul class="end_nav">
+            <li>List o'sprouts</li>
+            <li>Sign in</li>
+            <li>Sign up</li>
+        </ul>
+    </div>
+    <div class="main">
+        <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+             illo molestias? Voluptatum repudiandae id modi, est, similique
+              voluptatem dignissimos aut dolorem doloremque quibusdam quam iste tempora 
+              neque nam fugit cupiditate. Eaque, accusamus deserunt excepturi ipsa nemo 
+              nostrum debitis quos minima 
+            odio voluptas consequatur, ex error eum aliquam sequi hic perspiciatis!</p>
+        <div class="sub" >
+            <div class="sub1">
+                <h3>This is 1<sup>st</sup> div</h3>
+                <p class="subp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore odio animi consectetur sit ad odit!</p>
+            </div>
+            <div class="sub1">
+                <h3>This is my 2<sup>nd</sup> div</h3>
+                <p class="subp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, inventore enim. Veniam aliquam quis sunt?</p>
+            </div>
+            <div class="sub1">
+                <h3>This my 3<sup>rd</sup>div</h3>
+                <p class="subp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore repellat illum facere tempore? Laudantium, recusandae?</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
